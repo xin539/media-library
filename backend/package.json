@@ -10,7 +10,8 @@
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
     "test": "node --test test",
-    "migrate:mysql": "node scripts/migrate-mysql.js"
+    "db:init": "node scripts/init-db.js",
+    "demo:seed": "node scripts/seed-demo.js"
   },
   "keywords": [],
   "author": "",

@@ -52,6 +52,6 @@ npm start
 
 前端构建：`cd frontend` 后执行 `npm run build`。
 后端测试可能写入测试记录，应配置独立测试数据库后执行 `npm test`，不要对业务库运行。
-`migrate-mysql.js` 用于已有 SQLite 快照迁移，新安装使用 `init-db.js`。
+新安装使用 `npm run db:init` 初始化空数据库，再通过 `npm run demo:seed` 生成演示数据。
 
 这是源代码仓库。GitHub Pages 不能直接运行 Express + MySQL；在线运行需另行部署 Node.js 服务、MySQL 和持久化文件存储。
