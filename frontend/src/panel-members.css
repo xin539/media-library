@@ -1,0 +1,27 @@
+.invite-member-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  margin-bottom: 14px;
+  border-radius: 7px;
+  background: #f1f2f4;
+  color: #24292f;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.invite-member-button:hover { background: #e9eaec; }
+.panel-member-list { display: grid; gap: 12px; max-height: 250px; overflow: auto; }
+.panel-member-list .owner-row { min-height: 36px; }
+.panel-member-list .owner-row > div { min-width: 0; flex: 1; }
+.panel-member-list .owner-row strong { max-width: 105px; }
+.panel-role-select {
+  width: 74px;
+  height: 30px;
+  padding: 0 5px;
+  border: 0;
+  background: transparent;
+  color: #747b87;
+  font-size: 11px;
+}
